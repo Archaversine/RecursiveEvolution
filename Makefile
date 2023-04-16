@@ -17,7 +17,7 @@ SYSTEM_HEADERS = /usr/local/include
 # -lopenc_calib3d -lopencv_core -lopencv_features2d -lopencv_flann -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_mI -lopencv_objdetect -lopencv_photo -lopencv_shape -lopencv_stitching -lopencv_superres -lopencv_video -lopencv_videoio -lopencv_videostab
 CV_FLAGS = -lpthread -lopencv_core -lopencv_features2d -lopencv_flann -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_objdetect -lopencv_photo -lopencv_shape -lopencv_stitching -lopencv_superres -lopencv_video -lopencv_videoio -lopencv_videostab
 COMPILER = clang++
-CFLAGS = --system-header-prefix=$(SYSTEM_HEADERS) $(HEADERS) -std=c++20 $(CV_FLAGS)
+CFLAGS = --system-header-prefix=$(SYSTEM_HEADERS) $(HEADERS) -std=c++21 $(CV_FLAGS)
 LAUNCHARGS = 
 RM = rm -rf
 
