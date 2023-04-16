@@ -54,3 +54,7 @@ test: debug
 
 clean:
 	$(RM) $(DEBUGDIR)/* $(RELEASEDIR)/*
+<<<<<<< HEAD
+=======
+
+>>>>>>> e70e7fc5528adae7ab0cefa15d4288d157d36d01
